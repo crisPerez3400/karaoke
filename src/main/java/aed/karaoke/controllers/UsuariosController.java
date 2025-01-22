@@ -1,7 +1,7 @@
-package dad.colores.controllers;
+package aed.karaoke.controllers;
 
-import dad.colores.models.Usuarios.Usuario;
-import dad.colores.models.Usuarios.UsuarioService;
+import aed.karaoke.models.Usuarios.Usuario;
+import aed.karaoke.models.Usuarios.UsuarioService;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;

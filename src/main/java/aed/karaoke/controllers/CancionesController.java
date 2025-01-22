@@ -1,7 +1,7 @@
-package dad.colores.controllers;
+package aed.karaoke.controllers;
 
-import dad.colores.models.Canciones.Canciones;
-import dad.colores.models.Canciones.CancionesService;
+import aed.karaoke.models.Canciones.Canciones;
+import aed.karaoke.models.Canciones.CancionesService;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

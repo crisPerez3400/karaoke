@@ -1,4 +1,4 @@
-package dad.colores.models.Canciones;
+package aed.karaoke.models.Canciones;
 import javax.persistence.*;
 import java.util.Date;
 

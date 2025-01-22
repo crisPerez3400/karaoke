@@ -1,4 +1,4 @@
-package dad.colores.controllers;
+package aed.karaoke.controllers;
 
 public class LoginController {
 }

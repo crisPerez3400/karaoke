@@ -1,6 +1,6 @@
-package dad.colores;
+package aed.karaoke;
 
-import dad.colores.controllers.RootController;
+import aed.karaoke.controllers.RootController;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

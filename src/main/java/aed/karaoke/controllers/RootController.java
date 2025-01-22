@@ -1,4 +1,4 @@
-package dad.colores.controllers;
+package aed.karaoke.controllers;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

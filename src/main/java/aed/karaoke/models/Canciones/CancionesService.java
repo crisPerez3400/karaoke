@@ -1,6 +1,4 @@
-package dad.colores.models.Canciones;
-
-import dad.colores.models.Canciones.Canciones;
+package aed.karaoke.models.Canciones;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
