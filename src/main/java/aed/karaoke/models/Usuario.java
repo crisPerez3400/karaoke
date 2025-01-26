@@ -1,4 +1,4 @@
-package aed.karaoke.models.Usuarios;
+package aed.karaoke.models;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -27,6 +27,9 @@ public class Usuario {
         this.nombre = nombre;
         this.correo = correo;
         this.fechaRegistro = fechaRegistro;
+    }
+
+    public Usuario(Usuario usuario) {
     }
 
     public int getIdUsuario() {

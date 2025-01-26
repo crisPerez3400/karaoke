@@ -1,6 +1,5 @@
-package aed.karaoke.models.Canciones;
+package aed.karaoke.models;
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @Table(name = "canciones")
@@ -30,6 +29,8 @@ public class Canciones {
     public String getTitulo() {
         return titulo;
     }
+
+
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;

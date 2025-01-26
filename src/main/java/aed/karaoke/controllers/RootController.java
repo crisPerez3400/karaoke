@@ -1,5 +1,8 @@
 package aed.karaoke.controllers;
 
+import aed.karaoke.controllers.Canciones.CancionesController;
+import aed.karaoke.controllers.HistorialController.HistorialController;
+import aed.karaoke.controllers.Usuarios.UsuariosController;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -11,7 +14,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RootController implements Initializable {
-
+    LoginController loginController = new LoginController();
     UsuariosController usuariosController = new UsuariosController();
     CancionesController cancionesController = new CancionesController();
     HistorialController historialController = new HistorialController();
@@ -19,6 +22,8 @@ public class RootController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+
         usuariosTab.setContent(usuariosController.getRoot());
         cancionesTab.setContent(cancionesController.getRoot());
         historialTab.setContent(historialController.getRoot());
